@@ -415,12 +415,17 @@ p {
 }
 
 h1 {
-  max-width: 950px;
+  max-width: 1200px;
   margin: 0.6rem 0 1rem;
   color: var(--text);
-  font-size: clamp(3rem, 7.3vw, 6.75rem);
-  line-height: 0.88;
-  letter-spacing: -0.075em;
+
+  font-size: clamp(3rem, 7vw, 6.75rem);
+
+  line-height: 0.92;
+  letter-spacing: -0.055em;
+
+  text-wrap: balance;
+
   text-shadow:
     0 2px 0 rgba(0, 0, 0, 0.72),
     0 0 30px rgba(168, 79, 31, 0.08);
