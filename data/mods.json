@@ -26,7 +26,7 @@
     "bestFor": "Survival servers, SMP worlds, lightweight protection setups, and utility-focused modpacks.",
     "links": {
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/chunk-lock",
-      "github": "https://github.com/lefoxxy",
+      "github": "https://github.com/GOGLEOX/chunk-lock",
       "modrinth": ""
     }
   },
@@ -57,7 +57,7 @@
     "bestFor": "Mining, exploration, long survival sessions, and inventory-heavy modpacks.",
     "links": {
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/stacksmith",
-      "github": "https://github.com/lefoxxy",
+      "github": "https://github.com/GOGLEOX/stacksmith",
       "modrinth": ""
     }
   },
@@ -88,7 +88,7 @@
     "bestFor": "Mining sessions, mob farms, builders, exploration, and cleanup-heavy gameplay.",
     "links": {
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pocket-filter",
-      "github": "https://github.com/lefoxxy",
+      "github": "https://github.com/GOGLEOX/pocket_filter",
       "modrinth": ""
     }
   },
@@ -119,7 +119,7 @@
     "bestFor": "Builders, villages, SMP servers, roleplay worlds, and general survival convenience.",
     "links": {
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/autolatch",
-      "github": "https://github.com/lefoxxy",
+      "github": "https://github.com/GOGLEOX/auto-latch",
       "modrinth": ""
     }
   },
@@ -150,7 +150,7 @@
     "bestFor": "Survival realism packs, slower progression experiences, and exploration-focused gameplay.",
     "links": {
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/encumbrance",
-      "github": "https://github.com/lefoxxy",
+      "github": "https://github.com/GOGLEOX/encumbrance",
       "modrinth": ""
     }
   },
@@ -181,7 +181,7 @@
     "bestFor": "Builders, casual survival worlds, family servers, and lower-stress gameplay setups.",
     "links": {
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pup-passive-until-provoked",
-      "github": "https://github.com/lefoxxy",
+      "github": "https://github.com/GOGLEOX/passiveuntilprovoked",
       "modrinth": ""
     }
   },
@@ -195,7 +195,7 @@
       "NeoForge"
     ],
     "minecraftVersions": [
-      "1.21.1"
+      "1.20.4"
     ],
     "categories": [
       "Utility",
@@ -212,7 +212,7 @@
     "bestFor": "Technical players, automation packs, and newer-version utility-focused setups.",
     "links": {
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/torchredux",
-      "github": "https://github.com/lefoxxy",
+      "github": "https://github.com/GOGLEOX/torchredux",
       "modrinth": ""
     }
   }
