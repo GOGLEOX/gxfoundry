@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mod Catalog | GOGLEOX Foundry</title>
+
+  <meta name="description" content="Browse GOGLEOX Foundry Minecraft mods by loader, version target, category, and release status.">
+
+  <meta property="og:title" content="GOGLEOX Foundry Mod Catalog">
+  <meta property="og:description" content="Lightweight utility-focused Minecraft mods for Forge and NeoForge.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/og-image.png">
+
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="forge-atmosphere" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="GOGLEOX Foundry home">
+      <!-- Optional logo -->
+      <!-- <img class="brand-logo" src="assets/img/gx-logo.png" alt=""> -->
+
+      <span class="brand-mark">G</span>
+
+      <span class="brand-text">
+        <span class="brand-name">GOGLEOX Foundry</span>
+        <span class="brand-sub">Forged in fire, crafted in utility.</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="mods.html" aria-current="page">Mods</a>
+      <a href="roadmap.html">Roadmap</a>
+      <a href="versions.html">Version Outlook</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero forge-panel">
+      <p class="eyebrow">Mod Catalog</p>
+
+      <h1>
+        Lightweight mods.<br>
+        Practical gameplay.
+      </h1>
+
+      <p class="hero-copy">
+        Browse current GOGLEOX Foundry projects by loader,
+        Minecraft version, gameplay role, and release status.
+      </p>
+    </section>
+
+    <section class="catalog-shell">
+      <div class="catalog-head">
+        <div>
+          <p class="eyebrow">Projects</p>
+          <h2>Current catalog</h2>
+        </div>
+
+        <p id="result-count" class="catalog-count">
+          Loading catalog...
+        </p>
+      </div>
+
+      <div class="toolbar" aria-label="Catalog filters">
+        <input
+          id="search"
+          type="search"
+          placeholder="Search mods, loaders, categories, or versions"
+          aria-label="Search mod catalog">
+
+        <select id="loader-filter" aria-label="Filter by loader">
+          <option value="">All loaders</option>
+        </select>
+
+        <select id="status-filter" aria-label="Filter by release status">
+          <option value="">All statuses</option>
+        </select>
+      </div>
+
+      <div
+        id="mod-grid"
+        class="grid two"
+        aria-live="polite">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © 2026 GOGLEOX Foundry. Independent Minecraft mod workshop.
+      Not affiliated with Microsoft, Mojang, or Minecraft.
+    </p>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/mods.js"></script>
+</body>
+</html>

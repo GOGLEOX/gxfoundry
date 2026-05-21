@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Chunk Lock",
+    "slug": "chunk-lock",
+    "status": "Alpha",
+    "tagline": "Lightweight chunk claiming for survival servers and modpacks.",
+    "summary": "Simple land protection designed around ownership, persistence, and multiplayer safety without economies, factions, towns, or bloated management systems.",
+    "loaders": [
+      "Forge"
+    ],
+    "minecraftVersions": [
+      "1.20.1"
+    ],
+    "categories": [
+      "Server Utility",
+      "Land Protection",
+      "QoL"
+    ],
+    "features": [
+      "Right-click chunk claiming",
+      "Persistent ownership storage",
+      "Container and block interaction protection",
+      "Optional JourneyMap integration",
+      "Lightweight multiplayer-safe design"
+    ],
+    "bestFor": "Survival servers, SMP worlds, lightweight protection setups, and utility-focused modpacks.",
+    "links": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/chunk-lock",
+      "github": "https://github.com/lefoxxy",
+      "modrinth": ""
+    }
+  },
+  {
+    "name": "Stacksmith",
+    "slug": "stacksmith",
+    "status": "Alpha",
+    "tagline": "Stack identical tools without breaking vanilla durability behavior.",
+    "summary": "Reduces inventory clutter by allowing matching tools to stack while preserving normal usage and durability mechanics.",
+    "loaders": [
+      "Forge"
+    ],
+    "minecraftVersions": [
+      "1.20.1"
+    ],
+    "categories": [
+      "Inventory",
+      "Tools",
+      "QoL"
+    ],
+    "features": [
+      "Identical tool stacking",
+      "Vanilla durability handling",
+      "Automatic refill after tool breakage",
+      "Planned modded-tool compatibility",
+      "No custom inventory overhaul"
+    ],
+    "bestFor": "Mining, exploration, long survival sessions, and inventory-heavy modpacks.",
+    "links": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/stacksmith",
+      "github": "https://github.com/lefoxxy",
+      "modrinth": ""
+    }
+  },
+  {
+    "name": "Pocket Filter",
+    "slug": "pocket-filter",
+    "status": "Alpha",
+    "tagline": "Control what enters your inventory.",
+    "summary": "Whitelist and blacklist item pickup filtering built for mining, farms, builders, and players tired of inventory spam.",
+    "loaders": [
+      "Forge"
+    ],
+    "minecraftVersions": [
+      "1.20.1"
+    ],
+    "categories": [
+      "Inventory",
+      "Filtering",
+      "QoL"
+    ],
+    "features": [
+      "Whitelist mode",
+      "Blacklist mode",
+      "Compact filter interface",
+      "Per-player filtering behavior",
+      "Minimal gameplay intrusion"
+    ],
+    "bestFor": "Mining sessions, mob farms, builders, exploration, and cleanup-heavy gameplay.",
+    "links": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pocket-filter",
+      "github": "https://github.com/lefoxxy",
+      "modrinth": ""
+    }
+  },
+  {
+    "name": "AutoLatch",
+    "slug": "autolatch",
+    "status": "Stable",
+    "tagline": "Doors automatically close after a configurable delay.",
+    "summary": "A lightweight utility mod that keeps bases, villages, and multiplayer builds cleaner by automatically closing doors after use.",
+    "loaders": [
+      "Forge"
+    ],
+    "minecraftVersions": [
+      "1.20.1"
+    ],
+    "categories": [
+      "Automation-lite",
+      "QoL",
+      "Utility"
+    ],
+    "features": [
+      "Automatic door closing",
+      "Configurable delay timing",
+      "Redstone-aware behavior",
+      "Supports modded doors where compatible",
+      "Server-friendly implementation"
+    ],
+    "bestFor": "Builders, villages, SMP servers, roleplay worlds, and general survival convenience.",
+    "links": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/autolatch",
+      "github": "https://github.com/lefoxxy",
+      "modrinth": ""
+    }
+  },
+  {
+    "name": "Encumbrance",
+    "slug": "encumbrance",
+    "status": "Alpha",
+    "tagline": "Inventory weight simulation built for survival realism.",
+    "summary": "Adds configurable inventory burden mechanics to make resource management and exploration feel heavier and more deliberate.",
+    "loaders": [
+      "Forge"
+    ],
+    "minecraftVersions": [
+      "1.20.1"
+    ],
+    "categories": [
+      "Survival",
+      "Realism",
+      "Inventory"
+    ],
+    "features": [
+      "Configurable item weights",
+      "Decimal weight support",
+      "Vanilla-friendly defaults",
+      "Planned modded-item support",
+      "Performance-conscious calculations"
+    ],
+    "bestFor": "Survival realism packs, slower progression experiences, and exploration-focused gameplay.",
+    "links": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/encumbrance",
+      "github": "https://github.com/lefoxxy",
+      "modrinth": ""
+    }
+  },
+  {
+    "name": "P.U.P - Passive Until Provoked",
+    "slug": "passive-until-provoked",
+    "status": "Alpha",
+    "tagline": "Hostile mobs remain neutral until attacked.",
+    "summary": "Adjusts hostile mob behavior so worlds feel calmer without completely removing danger or replacing vanilla combat mechanics.",
+    "loaders": [
+      "Forge"
+    ],
+    "minecraftVersions": [
+      "1.20.1"
+    ],
+    "categories": [
+      "Mob Behavior",
+      "Accessibility",
+      "Survival"
+    ],
+    "features": [
+      "Hostile mobs begin passive",
+      "Vanilla aggression after provocation",
+      "No AI overhaul",
+      "Compatible with survival gameplay",
+      "Useful for relaxed world styles"
+    ],
+    "bestFor": "Builders, casual survival worlds, family servers, and lower-stress gameplay setups.",
+    "links": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pup-passive-until-provoked",
+      "github": "https://github.com/lefoxxy",
+      "modrinth": ""
+    }
+  },
+  {
+    "name": "TorchRedux",
+    "slug": "torchredux",
+    "status": "Compatibility",
+    "tagline": "Tick acceleration utility for underserved version targets.",
+    "summary": "A lightweight tick acceleration utility inspired by older automation mods while targeting newer Forge and NeoForge ecosystems.",
+    "loaders": [
+      "NeoForge"
+    ],
+    "minecraftVersions": [
+      "1.21.1"
+    ],
+    "categories": [
+      "Utility",
+      "Automation-lite",
+      "Compatibility"
+    ],
+    "features": [
+      "Tick acceleration mechanics",
+      "NeoForge compatibility focus",
+      "Configurable behavior",
+      "Automation utility support",
+      "Designed around lightweight deployment"
+    ],
+    "bestFor": "Technical players, automation packs, and newer-version utility-focused setups.",
+    "links": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/torchredux",
+      "github": "https://github.com/lefoxxy",
+      "modrinth": ""
+    }
+  }
+]

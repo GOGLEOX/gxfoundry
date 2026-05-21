@@ -1,0 +1,69 @@
+[
+  {
+    "target": "Forge 1.20.1",
+    "stance": "Primary Target",
+    "role": "Main development baseline",
+    "summary": "Forge 1.20.1 remains the primary GOGLEOX Foundry target due to ecosystem maturity, modpack adoption, and long-term stability.",
+    "reason": "The version has strong library support, broad community adoption, and one of the healthiest Forge modding ecosystems currently available.",
+    "bestFor": [
+      "Large modpacks",
+      "Long-term survival worlds",
+      "Multiplayer servers",
+      "Broad compatibility setups",
+      "Stable utility-focused releases"
+    ]
+  },
+  {
+    "target": "NeoForge 1.21.1",
+    "stance": "Selective Expansion",
+    "role": "Forward-looking compatibility target",
+    "summary": "NeoForge 1.21.1 is being evaluated for selected projects where ecosystem demand and compatibility justify support expansion.",
+    "reason": "NeoForge adoption continues to grow, but ecosystem fragmentation and tooling maturity are still being monitored carefully.",
+    "bestFor": [
+      "Newer Minecraft ecosystems",
+      "Selective compatibility projects",
+      "Early-adopter players",
+      "Future-facing mod support",
+      "Experimental utility releases"
+    ]
+  },
+  {
+    "target": "Older Forge Versions",
+    "stance": "Limited Support",
+    "role": "Legacy compatibility",
+    "summary": "Older Minecraft versions may receive limited support when maintenance overhead remains reasonable and compatibility demand is strong.",
+    "reason": "Supporting too many legacy versions increases maintenance cost, slows updates, and fragments development resources.",
+    "bestFor": [
+      "Legacy modpacks",
+      "Existing long-term servers",
+      "Community-requested compatibility",
+      "Selective backports"
+    ]
+  },
+  {
+    "target": "Newest Minecraft Releases",
+    "stance": "Delayed Adoption",
+    "role": "Observation and evaluation",
+    "summary": "Brand-new Minecraft versions are intentionally not targeted immediately until APIs, loaders, and ecosystem stability improve.",
+    "reason": "Immediate version chasing creates unstable releases, compatibility issues, and unnecessary maintenance pressure.",
+    "bestFor": [
+      "Monitoring ecosystem changes",
+      "Evaluating loader stability",
+      "Tracking API breakage",
+      "Assessing long-term viability"
+    ]
+  },
+  {
+    "target": "Cross-Loader Support",
+    "stance": "Case-by-Case",
+    "role": "Compatibility strategy",
+    "summary": "Cross-loader support is evaluated individually per project rather than treated as a mandatory requirement.",
+    "reason": "Maintaining multiple loaders can dramatically increase complexity, testing burden, and update maintenance.",
+    "bestFor": [
+      "High-demand utility mods",
+      "Projects with strong ecosystem overlap",
+      "Long-term stable mechanics",
+      "Low-maintenance feature sets"
+    ]
+  }
+]

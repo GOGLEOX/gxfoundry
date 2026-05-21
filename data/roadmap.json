@@ -1,0 +1,72 @@
+[
+  {
+    "phase": "Now",
+    "title": "Stabilize active releases",
+    "status": "Active",
+    "focus": "Polish, consistency, and release quality",
+    "description": "Current development is focused on stabilizing existing projects, improving public presentation, and tightening release consistency across platforms.",
+    "items": [
+      "Improve CurseForge and GitHub presentation consistency",
+      "Refine screenshots, metadata, and release descriptions",
+      "Address high-priority bug reports before feature expansion",
+      "Improve configuration defaults and usability",
+      "Reduce unnecessary maintenance overhead"
+    ]
+  },
+  {
+    "phase": "Next",
+    "title": "Expand core utility mods",
+    "status": "Planned",
+    "focus": "Inventory, survival, and multiplayer utility",
+    "description": "The next development cycle focuses on improving utility-focused mods with practical features that maintain lightweight architecture.",
+    "items": [
+      "Continue Stacksmith feature expansion",
+      "Improve Pocket Filter workflow and usability",
+      "Expand Chunk Lock compatibility and server tooling",
+      "Improve Encumbrance balancing and configurability",
+      "Refine multiplayer-safe behavior across projects"
+    ]
+  },
+  {
+    "phase": "Research",
+    "title": "Evaluate new project candidates",
+    "status": "Watchlist",
+    "focus": "Small-scope utility concepts",
+    "description": "New projects are evaluated against maintenance burden, long-term support cost, compatibility fragmentation, and practical gameplay value.",
+    "items": [
+      "Evaluate Ghostlay as a focused utility release",
+      "Research additional lightweight server-side utilities",
+      "Avoid economy-heavy or GUI-heavy systems",
+      "Avoid large-scale automation overhauls",
+      "Reject concepts that require excessive balancing"
+    ]
+  },
+  {
+    "phase": "Platform",
+    "title": "Selective loader and version expansion",
+    "status": "Ongoing",
+    "focus": "Forge and NeoForge targeting",
+    "description": "Version support expands selectively based on ecosystem stability, player demand, and long-term maintainability.",
+    "items": [
+      "Maintain Forge 1.20.1 as the primary stable baseline",
+      "Continue evaluating NeoForge 1.21.1 demand",
+      "Avoid supporting every Minecraft release immediately",
+      "Minimize loader fragmentation where possible",
+      "Keep support targets realistic for long-term maintenance"
+    ]
+  },
+  {
+    "phase": "Website",
+    "title": "Improve GOGLEOX Foundry platform",
+    "status": "Active",
+    "focus": "Catalog structure and presentation",
+    "description": "The Foundry website is being rebuilt around structured JSON-driven content and maintainable static architecture.",
+    "items": [
+      "Complete JSON-driven mod catalog",
+      "Build roadmap and version outlook systems",
+      "Improve responsive layout and accessibility",
+      "Expand project preview support",
+      "Standardize branding and visual presentation"
+    ]
+  }
+]
