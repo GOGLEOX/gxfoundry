@@ -55,51 +55,33 @@ function renderRoadmap(items) {
 
 function createRoadmapCard(item) {
   const card = document.createElement("article");
-
   card.className = "forge-card roadmap-card preload-card";
 
-  const tasks = Array.isArray(item.items)
-    ? item.items
-    : [];
+  const tasks = Array.isArray(item.items) ? item.items : [];
 
   card.innerHTML = `
     <div>
-      <span class="card-kicker">
-        ${escapeHTML(item.phase || "Phase")}
-      </span>
-
-      <h2>
-        ${escapeHTML(item.title || "Untitled")}
-      </h2>
-
-      <p>
-        ${escapeHTML(item.description || "")}
-      </p>
+      <span class="card-kicker">${escapeHTML(item.phase || "Phase")}</span>
+      <h2>${escapeHTML(item.title || "Untitled")}</h2>
+      <p class="card-summary">${escapeHTML(item.description || "")}</p>
     </div>
 
-    <dl class="meta">
+    <dl class="card-meta">
       <div>
         <dt>Status</dt>
-        <dd>
-          ${escapeHTML(item.status || "Planned")}
-        </dd>
+        <dd>${escapeHTML(item.status || "Planned")}</dd>
       </div>
 
       <div>
         <dt>Focus</dt>
-        <dd>
-          ${escapeHTML(item.focus || "General Development")}
-        </dd>
+        <dd>${escapeHTML(item.focus || "General Development")}</dd>
       </div>
     </dl>
 
     <div>
-      <p class="eyebrow">Planned Work</p>
-
-      <ul class="clean">
-        ${tasks.map(task => `
-          <li>${escapeHTML(task)}</li>
-        `).join("")}
+      <p class="card-section-title">Planned Work</p>
+      <ul class="card-list">
+        ${tasks.map(task => `<li>${escapeHTML(task)}</li>`).join("")}
       </ul>
     </div>
   `;
