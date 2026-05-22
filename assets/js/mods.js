@@ -112,85 +112,51 @@ function renderMods(mods) {
 
 function createModCard(mod) {
   const card = document.createElement("article");
-
   card.className = "forge-card mod-card preload-card";
 
-  const categories = Array.isArray(mod.categories)
-    ? mod.categories
-    : [];
-
-  const loaders = Array.isArray(mod.loaders)
-    ? mod.loaders
-    : [];
-
-  const versions = Array.isArray(mod.minecraftVersions)
-    ? mod.minecraftVersions
-    : [];
-
-  const features = Array.isArray(mod.features)
-    ? mod.features
-    : [];
-
+  const categories = Array.isArray(mod.categories) ? mod.categories : [];
+  const loaders = Array.isArray(mod.loaders) ? mod.loaders : [];
+  const versions = Array.isArray(mod.minecraftVersions) ? mod.minecraftVersions : [];
+  const features = Array.isArray(mod.features) ? mod.features : [];
   const links = mod.links || {};
 
   card.innerHTML = `
-    <div class="mod-topline">
-      <span class="card-kicker">
-        ${escapeHTML(mod.status || "Listed")}
-      </span>
+    <div class="card-header-row">
+      <span class="card-kicker">${escapeHTML(mod.status || "Listed")}</span>
 
       <div class="pill-row">
-        ${loaders.map(loader => `
-          <span class="pill">${escapeHTML(loader)}</span>
-        `).join("")}
-
-        ${versions.map(version => `
-          <span class="pill">${escapeHTML(version)}</span>
-        `).join("")}
+        ${loaders.map(loader => `<span class="pill">${escapeHTML(loader)}</span>`).join("")}
+        ${versions.map(version => `<span class="pill">${escapeHTML(version)}</span>`).join("")}
       </div>
     </div>
 
-    <div>
-      <h2>
-        ${escapeHTML(mod.name || "Unnamed Mod")}
-      </h2>
-
-      <p class="mod-tagline">
-        ${escapeHTML(mod.tagline || "")}
-      </p>
+    <div class="card-title-block">
+      <h2>${escapeHTML(mod.name || "Unnamed Mod")}</h2>
+      <p class="mod-tagline">${escapeHTML(mod.tagline || "")}</p>
     </div>
 
-    <p>
-      ${escapeHTML(mod.summary || "")}
-    </p>
+    <p class="card-summary">${escapeHTML(mod.summary || "")}</p>
 
-    <dl class="meta">
+    <dl class="card-meta">
       <div>
         <dt>Purpose</dt>
-        <dd>
-          ${escapeHTML(categories.join(", ") || "Utility")}
-        </dd>
+        <dd>${escapeHTML(categories.join(", ") || "Utility")}</dd>
       </div>
 
       <div>
         <dt>Best For</dt>
-        <dd>
-          ${escapeHTML(mod.bestFor || "Minecraft players and modpacks")}
-        </dd>
+        <dd>${escapeHTML(mod.bestFor || "Minecraft players and modpacks")}</dd>
       </div>
     </dl>
 
     <div>
-      <p class="eyebrow">Highlights</p>
-
-      <ul class="clean">
-        ${features.map(feature => `
-          <li>${escapeHTML(feature)}</li>
-        `).join("")}
+      <p class="card-section-title">Highlights</p>
+      <ul class="card-list">
+        ${features.map(feature => `<li>${escapeHTML(feature)}</li>`).join("")}
       </ul>
     </div>
 
-    <footer class="mod-actions">
+    <footer class="mod-actions card-footer">
       ${renderLink("CurseForge", links.curseforge)}
       ${renderLink("GitHub", links.github)}
       ${renderLink("Modrinth", links.modrinth)}
