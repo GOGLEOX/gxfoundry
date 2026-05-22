@@ -55,51 +55,33 @@ function renderVersions(items) {
 
 function createVersionCard(item) {
   const card = document.createElement("article");
-
   card.className = "forge-card version-card preload-card";
 
-  const bestFor = Array.isArray(item.bestFor)
-    ? item.bestFor
-    : [];
+  const bestFor = Array.isArray(item.bestFor) ? item.bestFor : [];
 
   card.innerHTML = `
     <div>
-      <span class="card-kicker">
-        ${escapeHTML(item.stance || "Target")}
-      </span>
-
-      <h2>
-        ${escapeHTML(item.target || "Untitled Target")}
-      </h2>
-
-      <p>
-        ${escapeHTML(item.summary || "")}
-      </p>
+      <span class="card-kicker">${escapeHTML(item.stance || "Target")}</span>
+      <h2>${escapeHTML(item.target || "Untitled Target")}</h2>
+      <p class="card-summary">${escapeHTML(item.summary || "")}</p>
     </div>
 
-    <dl class="meta">
+    <dl class="card-meta">
       <div>
         <dt>Role</dt>
-        <dd>
-          ${escapeHTML(item.role || "Compatibility target")}
-        </dd>
+        <dd>${escapeHTML(item.role || "Compatibility target")}</dd>
       </div>
 
       <div>
         <dt>Reason</dt>
-        <dd>
-          ${escapeHTML(item.reason || item.why || "")}
-        </dd>
+        <dd>${escapeHTML(item.reason || item.why || "")}</dd>
       </div>
     </dl>
 
     <div>
-      <p class="eyebrow">Best Fit</p>
-
-      <ul class="clean">
-        ${bestFor.map(entry => `
-          <li>${escapeHTML(entry)}</li>
-        `).join("")}
+      <p class="card-section-title">Best Fit</p>
+      <ul class="card-list">
+        ${bestFor.map(entry => `<li>${escapeHTML(entry)}</li>`).join("")}
       </ul>
     </div>
   `;
