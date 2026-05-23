@@ -35,7 +35,7 @@
   {
     "name": "Stacksmith",
     "slug": "stacksmith",
-    "status": "Alpha",
+    "status": "Beta",
     "tagline": "Stack identical tools without breaking vanilla durability behavior.",
     "summary": "Reduces inventory clutter by allowing matching tools to stack while preserving normal usage and durability mechanics.",
     "loaders": [
@@ -66,7 +66,7 @@
   {
     "name": "Pocket Filter",
     "slug": "pocket-filter",
-    "status": "Alpha",
+    "status": "Beta",
     "tagline": "Control what enters your inventory.",
     "summary": "Whitelist and blacklist item pickup filtering built for mining, farms, builders, and players tired of inventory spam.",
     "loaders": [
@@ -128,7 +128,7 @@
   {
     "name": "Encumbrance",
     "slug": "encumbrance",
-    "status": "Alpha",
+    "status": "Beta",
     "tagline": "Inventory weight simulation built for survival realism.",
     "summary": "Adds configurable inventory burden mechanics to make resource management and exploration feel heavier and more deliberate.",
     "loaders": [
@@ -159,7 +159,7 @@
   {
     "name": "P.U.P - Passive Until Provoked",
     "slug": "passive-until-provoked",
-    "status": "Alpha",
+    "status": "Beta",
     "tagline": "Hostile mobs remain neutral until attacked.",
     "summary": "Adjusts hostile mob behavior so worlds feel calmer without completely removing danger or replacing vanilla combat mechanics.",
     "loaders": [
