@@ -2,7 +2,7 @@
   {
     "name": "Chunk Lock",
     "slug": "chunk-lock",
-    "status": "Alpha",
+    "status": "Stable",
     "tagline": "Lightweight chunk claiming for survival servers and modpacks.",
     "summary": "Simple land protection designed around ownership, persistence, and multiplayer safety without economies, factions, towns, or bloated management systems.",
     "loaders": [
@@ -19,9 +19,11 @@
     "features": [
       "Right-click chunk claiming",
       "Persistent ownership storage",
+      "Basic trust system",
       "Container and block interaction protection",
       "Optional JourneyMap integration",
-      "Lightweight multiplayer-safe design"
+      "Lightweight multiplayer-safe design",
+      "Extreme configuration"
     ],
     "bestFor": "Survival servers, SMP worlds, lightweight protection setups, and utility-focused modpacks.",
     "links": {
@@ -33,7 +35,7 @@
   {
     "name": "Stacksmith",
     "slug": "stacksmith",
-    "status": "Alpha",
+    "status": "Beta",
     "tagline": "Stack identical tools without breaking vanilla durability behavior.",
     "summary": "Reduces inventory clutter by allowing matching tools to stack while preserving normal usage and durability mechanics.",
     "loaders": [
@@ -64,7 +66,7 @@
   {
     "name": "Pocket Filter",
     "slug": "pocket-filter",
-    "status": "Alpha",
+    "status": "Beta",
     "tagline": "Control what enters your inventory.",
     "summary": "Whitelist and blacklist item pickup filtering built for mining, farms, builders, and players tired of inventory spam.",
     "loaders": [
@@ -126,7 +128,7 @@
   {
     "name": "Encumbrance",
     "slug": "encumbrance",
-    "status": "Alpha",
+    "status": "Beta",
     "tagline": "Inventory weight simulation built for survival realism.",
     "summary": "Adds configurable inventory burden mechanics to make resource management and exploration feel heavier and more deliberate.",
     "loaders": [
@@ -157,7 +159,7 @@
   {
     "name": "P.U.P - Passive Until Provoked",
     "slug": "passive-until-provoked",
-    "status": "Alpha",
+    "status": "Beta",
     "tagline": "Hostile mobs remain neutral until attacked.",
     "summary": "Adjusts hostile mob behavior so worlds feel calmer without completely removing danger or replacing vanilla combat mechanics.",
     "loaders": [
