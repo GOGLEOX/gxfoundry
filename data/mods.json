@@ -173,7 +173,7 @@
       "Accessibility",
       "Survival"
     ],
-    "Status": [
+    "features": [
       "Passive Until Provoked (P.U.P.) has entered deprecation status under GOGLEOX Foundry as the project no longer aligns with the studio’s current focus on tightly scoped, utility-first systems and low-overhead maintainability. Active development and future version support are not currently planned, though development may return at a later date."
     ],
     "bestFor": "Builders, casual survival worlds, family servers, and lower-stress gameplay setups.",
