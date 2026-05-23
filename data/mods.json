@@ -159,7 +159,7 @@
   {
     "name": "P.U.P - Passive Until Provoked",
     "slug": "passive-until-provoked",
-    "status": "Beta",
+    "status": "Deprecated",
     "tagline": "Hostile mobs remain neutral until attacked.",
     "summary": "Adjusts hostile mob behavior so worlds feel calmer without completely removing danger or replacing vanilla combat mechanics.",
     "loaders": [
@@ -173,17 +173,13 @@
       "Accessibility",
       "Survival"
     ],
-    "features": [
-      "Hostile mobs begin passive",
-      "Vanilla aggression after provocation",
-      "No AI overhaul",
-      "Compatible with survival gameplay",
-      "Useful for relaxed world styles"
+    "Status": [
+      "Passive Until Provoked (P.U.P.) has entered deprecation status under GOGLEOX Foundry as the project no longer aligns with the studio’s current focus on tightly scoped, utility-first systems and low-overhead maintainability. Active development and future version support are not currently planned, though development may return at a later date."
     ],
     "bestFor": "Builders, casual survival worlds, family servers, and lower-stress gameplay setups.",
     "links": {
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pup-passive-until-provoked",
-      "github": "https://github.com/GOGLEOX/passiveuntilprovoked",
+      "curseforge": "",
+      "github": "",
       "modrinth": ""
     }
   },
