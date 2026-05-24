@@ -95,6 +95,37 @@
     }
   },
   {
+  "name": "Nightshift",
+  "slug": "nightshift",
+  "status": "Alpha",
+  "tagline": "Sleep without freezing the world in place.",
+  "summary": "Advances select survival systems during skipped nights including furnaces, campfires, crops, and breeding cooldowns without turning beds into automation machines.",
+  "loaders": [
+    "Forge"
+  ],
+  "minecraftVersions": [
+    "1.20.1"
+  ],
+  "categories": [
+    "Utility",
+    "Survival",
+    "QoL"
+  ],
+  "features": [
+    "Sleep-time furnace progression",
+    "Campfire cooking advancement",
+    "Limited crop growth during sleep",
+    "Breeding cooldown recovery",
+    "Configurable balancing options"
+  ],
+  "bestFor": "Survival servers, multiplayer worlds, technical-lite gameplay, and players who regularly skip nights.",
+  "links": {
+    "curseforge": "https://curseforge.com/minecraft/mc-mods/nightshift",
+    "github": "https://github.com/GOGLEOX/nightshift",
+    "modrinth": ""
+  }
+  },
+  {
     "name": "AutoLatch",
     "slug": "autolatch",
     "status": "Stable",
